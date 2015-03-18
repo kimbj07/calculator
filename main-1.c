@@ -4,7 +4,7 @@ int add(int, int);
 int sub(int, int);
 int div(int, int);
 int multi(int, int);
- 
+
 int main(int argc, char* argv[])
 {
 	int a, b, c;
@@ -30,6 +30,8 @@ int main(int argc, char* argv[])
 	}
 	
 	printf("result is %d.\n", c);
+	
+	// for push test.
 	
 	return 0;
 }
