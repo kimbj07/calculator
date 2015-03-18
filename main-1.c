@@ -4,7 +4,11 @@ int add(int, int);
 int sub(int, int);
 int div(int, int);
 int multi(int, int);
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> conflict 된 부분 수정.
 int main(int argc, char* argv[])
 {
 	int a, b, c;
@@ -30,7 +34,11 @@ int main(int argc, char* argv[])
 	}
 	
 	printf("result is %d.\n", c);
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> conflict 된 부분 수정.
 	return 0;
 }
  
