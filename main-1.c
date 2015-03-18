@@ -5,10 +5,14 @@ int sub(int, int);
 int div(int, int);
 int multi(int, int);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> conflict 된 부분 수정.
+=======
+ 
+>>>>>>> ccc9922f2fe0dfc072e5c76b57675da7f4611550
 int main(int argc, char* argv[])
 {
 	int a, b, c;
@@ -35,10 +39,14 @@ int main(int argc, char* argv[])
 	
 	printf("result is %d.\n", c);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 	
 >>>>>>> conflict 된 부분 수정.
+=======
+	
+>>>>>>> ccc9922f2fe0dfc072e5c76b57675da7f4611550
 	return 0;
 }
  
