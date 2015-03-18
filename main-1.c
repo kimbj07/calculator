@@ -4,20 +4,13 @@ int add(int, int);
 int sub(int, int);
 int div(int, int);
 int multi(int, int);
-<<<<<<< HEAD
  
 int main(int argc, char* argv[])
 {
-	int g, h, i;
-=======
-
-int main(int argc, char* argv[])
-{
 	int a, b, c;
->>>>>>> feature/iss1-create-skeleton
 	char operator;
 	
-	printf("Please enter a expression");
+	printf("Please enter a expression(ex.1 -9)");
 	scanf("%d %c %d", &a, &operator, &b);
 	
 	switch (operator)
@@ -38,11 +31,6 @@ int main(int argc, char* argv[])
 	
 	printf("result is %d.\n", c);
 	
-<<<<<<< HEAD
-=======
-	// for push test.
-	
->>>>>>> feature/iss1-create-skeleton
 	return 0;
 }
  
